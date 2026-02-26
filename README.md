@@ -8,6 +8,23 @@ A FastAPI-based backend system that intelligently classifies incoming notificati
 
 The system evaluates notifications using priority scoring, deduplication logic, and rule-based decision processing.
 
+💡 Why This Project?
+
+Modern applications generate thousands of notifications daily.  
+This project demonstrates how backend systems can intelligently prioritize alerts to reduce noise and improve user productivity.
+
+It simulates a real-world notification processing engine using scoring logic, deduplication strategies, and rule-based decision systems.
+
+🧠 How It Works
+
+1. Incoming notifications are received via API.
+2. The system checks for duplicate messages.
+3. A priority score is calculated.
+4. Rule-based logic classifies the notification into:
+   - Now
+   - Later
+   - Never
+
 📌 Features
 
 - Notification classification (Now / Later / Never)
@@ -104,3 +121,4 @@ GitHub: https://github.com/BINDU7670
 📄 License
 
 This project is created for educational and demonstration purposes.
+
